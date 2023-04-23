@@ -4,11 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSE110 Meeting</title>
-    <link rel="icon" type="image/png" href="Instagram_icon.png">
+    <link rel="icon" type="image/png" href="brainstorm.jpeg">
+    <link rel="stylesheet" href="mystyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Sigmar&family=Vina+Sans&display=swap" rel="stylesheet">
   </head>
   <body>
+    <h1>Group Brainstorm</h1>
     <header>
-        <div>Brainstorm</div>
+        <div class="container">
+          <h2>Brainstorm</h2>
         <nav>
           <ul>
             <li><a href="#Documentations">Documentations</a></li>
@@ -21,12 +27,11 @@
             <li><a href="#Audio-Recording">Audio Recording</a></li>
             <li><a href="#Video-recording">Video recording</a></li>
             <li><a href="#subscribe">Subscribe</a></li>
-
           </ul>
         </nav>
+        </div>
       </header>
     <main>
-      <h1>CSE110 Group Brainstorm</h1>
       <section>
         <h2 id="Documentations">Documentations</h2>
         <ol>
@@ -38,23 +43,23 @@
       
       <section>
         <h2 id="Attendance-List">Attendance List</h2>
-          <ol>
-            <li>Sarah Smith</li>
-            <li>John Doe</li>
-            <li>Anna Davis</li>
-            <li>Olivia Garcia</li>
-            <li>Grace Kim</li>
-          </ol>
+          <div class="attend">
+          <span>Sarah Smith</span>
+          <span>John Doe</span>
+          <span>Anna Davis</span>
+          <span>Olivia Garcia</span>
+          <span>Grace Kim</span>
+        </div>
       </section>
       
       <section>
         <h2 id="Agenda">Agenda</h2>
-          <ol>
-            <li>Discuss the progress of the project and identify any roadblocks that need to be addressed</li>
-            <li>Think about new features or functionalities to add to the project</li>
-            <li>Divide tasks among team members based on their strengths and skillsets</li>
-            <li>Review the code and provide feedback or suggestions for improvements</li>
-            <li>Plan and prioritize tasks for the upcoming week or sprint</li>
+          <ol class="links-list">
+            <li><a href="">Discuss the progress of the project and identify any roadblocks that need to be addressed</a></li>
+            <li><a href="">Think about new features or functionalities to add to the project</a></li>
+            <li><a href="">Divide tasks among team members based on their strengths and skillsets</a></li>
+            <li><a href="">Review the code and provide feedback or suggestions for improvements</a></li>
+            <li><a href="">Plan and prioritize tasks for the upcoming week or sprint</a></li>
           </ol>
       </section>
       
@@ -74,7 +79,7 @@
 
       <section>
         <h2 id="Any-concern">Any concern</h2>
-        <p>The team identified some technical challenges that need to be addressed, but did not have time to discuss possible solutions. We should brainstorm possible solutions to the challenges and come up with an action plan to address them.</p>
+        <p style="color:red;">The team identified some technical challenges that need to be addressed, but did not have time to discuss possible solutions. We should brainstorm possible solutions to the challenges and come up with an action plan to address them.</p>
       </section>
 
       <section>
@@ -137,4 +142,15 @@
       <div>&copy; Chang Shu</div>
     </footer>
   </body>
+
+  <style>
+    header {
+      background-color: rgb(214, 244, 244);
+      display: block;
+      position: relative;
+    }
+  </style>
+
+
+
 </html>
